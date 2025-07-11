@@ -21,6 +21,7 @@ header {
     background-size: cover;
     background-position: center;
      font-size: 1.5em;
+     margin-bottom: 80px;
 }
 
 /* Nav Style */
@@ -71,12 +72,12 @@ a.btn:hover {
 .action{
     height: 250px;
     display: flex;
-    /* justify-content:space-between; */
-    margin:100px 160px;
+    justify-content:space-between;
+    margin-left:210px;
     align-items: center;
     font-size: 1.5em;
     line-break: 5px;
-    gap: 260px;
+    margin-bottom: 80px;
 }
 .action-column{
    width:450px;
@@ -88,10 +89,31 @@ a.btn:hover {
 .action img{
     /* border:2px; */
     padding:5px;
-    border-radius: 15%;
+    border-radius: 17%;
     box-shadow: 10px;
     
 }
-
+.user{
+    background-color:rgb(216, 221, 235,.5);
+    display: block;
+    text-align: center; 
+    justify-content: center;
+    height: 250px;
+    margin-bottom: 80px;
+    width:1100px;
+     margin-left: 210px;
+     padding: 35px;
+     border-radius: 20px;
+}
+.user-con{
+    display:flex;
+    font-size: 1.8em;
+     justify-content: space-around;
+     align-items: center;
+     height: 150px;
+}
+.user-con h1{
+    color: #3b3aeb;
+}
 
 
