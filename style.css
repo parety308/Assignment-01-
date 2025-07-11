@@ -80,6 +80,7 @@ a.btn:hover {
     font-size: 1.5em;
     line-break: 5px;
     margin-bottom: 80px;
+    padding:20px;
 }
 .action-column{
    width:450px;
@@ -143,4 +144,49 @@ a.btn:hover {
     display: flex;
 }
 
+.focus{
+    background-color: #f0efef;
+     /* margin-left:10px; */
+     margin-top: 80px;
+     margin:80px 232px;
+     border-radius: 20px;
+     padding: 25px;
+}
+.focus-con{
+/* justify-content: center; */
+/* align-items: center; */
+text-align: center;
+}
+.focus-con img{
+    border-radius: 15px;
+}
+footer{
+    display:flex;
+    margin: 80px 230px;
+       background-color: #f0efef;
+     gap:100px;
+     padding:20px;
+     border-radius: 25px;
+    
+}
 
+.footer-column{
+   width:50%;
+}
+
+ footer input,textarea{
+    height: 44px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    margin:3px;
+    border: none;
+    padding: 10px;
+}
+
+.footer-column a{
+    width:100%;
+}
+.section-title{
+    margin-bottom: 10px;
+}
